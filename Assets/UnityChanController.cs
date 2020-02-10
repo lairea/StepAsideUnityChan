@@ -13,7 +13,7 @@ public class UnityChanController : MonoBehaviour {
 	private float movableRange = 3.4f;
 	private float coefficient = 0.95f;
 
-	public bool isEnd = false;
+	private bool isEnd = false;
 
 	private GameObject stateText;
 	private GameObject scoreText;
